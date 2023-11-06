@@ -1,0 +1,25 @@
+.container{
+border: 2px solid black;
+height: 590px;
+display: flex;
+/* justify-content:center; */
+/* align-items:center; */
+/* flex-direction:row;
+flex-wrap: wrap; */
+flex-flow: column wrap;
+align-content: center;
+row-gap: 20px;
+column-gap: 40px;
+
+
+
+
+}
+.items{
+   height: 95px;
+   width: 95px;
+   background-color: red;
+   /* margin: 10px;   Because Gap has given above container */
+   border: 2px solid black;
+
+}
